@@ -17,18 +17,20 @@ const Home = () => {
       <div className="flex-1">
         <div className="md:text-left text-center">
           <h1 className="md:text-5xl text-2xl md:leading-normal leading-10 text-white font-bold">
-            <span className="text-cyan-600 md:text-6xl text-5xl">
+            <span id='helloId' className=" text-cyan-600 md:text-6xl text-5xl">
               Hello!
               <br />
             </span>
             I'm <span>SUMON M.</span>
+            <br/>
+            MERN <span>Stack Developer</span>
           </h1>
           <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
            I'm a Fullstack Developer specializing in MERN technology. Currently i am focused on building responsive full-stack web applications
           </h4>
           <div>
           <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
-          <button className="btn-primary mt-8">
+          <button id="contact-btn-id" className="btn-primary mt-9">
             Contact Me
           </button>
           </Link>

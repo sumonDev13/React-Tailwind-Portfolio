@@ -50,7 +50,7 @@ const Navbar = () => {
                 {!nav ?<FaBars /> : <FaTimes />}
             </div>
             {/*MObileMenu */}
-            <ul className={!nav ? 'hidden':'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
+            <ul className={!nav ? ' hidden':'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
                 <li className='py-6 text-4xl'><Link onClick={handleClick} to='home' smooth={true} duration={500}>
             Home
           </Link></li>
@@ -99,14 +99,14 @@ const Navbar = () => {
           
           
           
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+          {/*<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='https://drive.google.com/file/d/1Dnv4UmwTlloC3SmCVID7Pzx_SDei1U8s/view?usp=sharing' target="_blank" rel="noreferrer"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
-          </li>
+          </li>*/}
          </ul>
         </div>
     </div>

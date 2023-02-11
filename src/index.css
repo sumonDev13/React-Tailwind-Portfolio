@@ -47,6 +47,29 @@ background: linear-gradient(98deg, rgba(18,22,21,1) 4%, rgba(9,14,106,0.99772408
 
 }
 
+#workId{
+  padding-top: 100px;
+}
+#contactId{
+  padding-top:200px;
+ 
+}
+#contact-btn-id:hover{
+  background: #2b3236;
+  background-image: -webkit-linear-gradient(top, #2b3236, #50575c);
+  background-image: -moz-linear-gradient(top, #2b3236, #50575c);
+  background-image: -ms-linear-gradient(top, #2b3236, #50575c);
+  background-image: -o-linear-gradient(top, #2b3236, #50575c);
+  background-image: linear-gradient(to bottom, #2b3236, #50575c);
+  text-decoration: none;
+}
+#helloId{
+  
+}
+#cbt{
+  padding-bottom: margin-;
+}
+
 
 
 
